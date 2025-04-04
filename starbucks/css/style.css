@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    background: #fff;
+}
+
+
+/* header */
+
+header {
+    width: 100%;
+    height: 100px;
+    border-bottom: rgba(0, 0, 0, .1) 2px solid;
+}
+
+header nav ul .starbucks-coffee-logo img {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-weight: 600;
+    position: relative;
+    top: 19px;
+    left: 150px;
+}
+
+header nav ul li {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+header nav ul li:hover {
+    color: #006241;
+}
+
+header nav ul .menu {
+    position: relative;
+    left: 28px;
+}
+
+header nav ul .rewards {
+    position: relative;
+    left: 55px;
+}
+
+header nav ul .giftCards {
+    position: relative;
+    left: 80px;
+}
+
+header nav ul .location img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 900px;
+    top: 3px;
+}
+
+header nav ul .findAStore {
+    position: relative;
+    left: 910px;
+}
+
+header nav ul .signIn {
+    position: relative;
+    top: 1px;
+    left: 960px;
+    padding: 8px 17px;
+    border-radius: 50px;
+    background: none;
+    border: 1px solid #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+header nav ul .signIn:hover {
+    background-color: rgba(34, 29, 29, 0.089);
+}
+
+header nav ul .joinNow {
+    position: relative;
+    top: 1px;
+    left: 975px;
+    background: #000;
+    color: #fff;
+    padding: 8px 17px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+header nav ul .joinNow:hover {
+    background-color: rgb(78, 78, 78);
+}
+
+
+/* first container */
+
+.container {
+    width: 75.7%;
+    height: 627px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.container .picture img {
+    width: 722px;
+}
+
+.container .inner {
+    display: block;
+    align-items: center;
+    text-align: center;
+    background: #32462f;
+    width: 732px;
+    height: 627px;
+    position: relative;
+    left: 722px;
+    bottom: 631px;
+    color: #fff;
+}
+
+.container .inner h1 {
+    position: relative;
+    top: 220px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.container .inner h2 {
+    font-size: 24px;
+    position: relative;
+    top: 248px;
+    font-weight: 500;
+}
+
+.container .inner button {
+    background: none;
+    border-radius: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 16px;
+    color: #fff;
+    border: 1px solid #fff;
+    position: relative;
+    top: 288px;
+    transition: all 0.2 ease;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.container .inner button:hover {
+    background: #2c3d29;
+}
+
+
+/* second container */
+
+.container1 {
+    position: relative;
+    left: 5px;
+    width: 76.5%;
+    height: 380px;
+    background: #000;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.container1 .inner {
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    width: 722px;
+    height: 380px;
+    background: #32462f;
+}
+
+.container1 .inner h1 {
+    font-size: 24px;
+    position: relative;
+    top: 70px;
+}
+
+.container1 .inner h2 {
+    font-size: 19px;
+    position: relative;
+    top: 100px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.container1 .inner button {
+    background: none;
+    border-radius: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 16px;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.2 ease;
+    font-size: 17px;
+    position: relative;
+    top: 140px;
+    cursor: pointer;
+}
+
+.container1 .inner button:hover {
+    background: #2c3d29;
+}
+
+.container1 .picture img {
+    width: 735px;
+    position: relative;
+    left: 722px;
+    height: 380px;
+    bottom: 380px;
+}
+
+
+/* third container */
+
+.container2 {
+    width: 76%;
+    height: 627px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.container2 .picture img {
+    width: 722px;
+}
+
+.container2 .inner {
+    display: block;
+    align-items: center;
+    text-align: center;
+    background: #32462f;
+    width: 734px;
+    height: 627px;
+    position: relative;
+    left: 722px;
+    bottom: 631px;
+    color: #fff;
+}
+
+.container2 .inner h1 {
+    position: relative;
+    top: 160px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.container2 .inner h2 {
+    font-size: 24px;
+    position: relative;
+    top: 200px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.container2 .inner button {
+    background: none;
+    border-radius: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 16px;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.2 ease;
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    top: 238px;
+}
+
+.container2 .inner button:hover {
+    background: #2c3d29;
+}
+
+
+/* third container */
+
+.container3 {
+    width: 76.45%;
+    height: 627px;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    left: 5px;
+}
+
+.container3 .inner {
+    color: #fff;
+    display: block;
+    align-items: center;
+    text-align: center;
+    background: #006241;
+    width: 722px;
+    height: 627px;
+}
+
+.container3 .inner h1 {
+    font-size: 50px;
+    position: relative;
+    top: 160px;
+}
+
+.container3 .inner h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 500;
+    position: relative;
+    top: 200px;
+}
+
+.container3 .inner button {
+    background: none;
+    border-radius: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 16px;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.2 ease;
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    top: 238px;
+}
+
+.container3 .inner button:hover {
+    background: #004e34;
+}
+
+.container3 .picture img {
+    width: 735px;
+    height: 627px;
+    position: relative;
+    bottom: 627px;
+    left: 722px;
+}
+
+
+/* shrift */
+
+.shrift {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-weight: 540;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #000000;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.shrift h1 {
+    font-size: 14px;
+    font-weight: 540;
+    margin-top: 100px;
+}
+
+.shrift h1 a {
+    color: #000000;
+}
+
+
+/* линия */
+
+.line {
+    border: 1px solid #edebe9;
+    border-width: 100%;
+    margin-top: 35px;
+}
+
+
+/* etc  */
+
+.etc {
+    display: flex;
+    margin-top: 45px;
+    position: relative;
+    left: 228px;
+}
+
+.etc p {
+    line-height: 3;
+    cursor: pointer;
+    color: rgba(0, 0, 0, .58);
+}
+
+.etc p:hover {
+    color: #000;
+}
+
+.etc h2 {
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.etc .careers {
+    position: relative;
+    left: 90px;
+}
+
+.etc .socialImpact {
+    position: relative;
+    left: 140px;
+}
+
+.etc .forBusinessPartners {
+    position: relative;
+    left: 180px;
+}
+
+.etc .orderAndPickUp {
+    position: relative;
+    left: 220px;
+}
+
+
+/* линия2 */
+
+.line1 {
+    border: 1px solid #edebe9;
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 76%;
+}
+
+.icons {
+    position: relative;
+    top: 30px;
+    left: 230px;
+}
+
+.icons img {
+    width: 33px;
+    height: 33px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.finalShrift {
+    position: relative;
+    left: 230px;
+    top: 50px;
+    line-height: 3;
+}
+
+.finalShrift h2 {
+    color: rgba(0, 0, 0, .58);
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+}
